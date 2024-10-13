@@ -1,0 +1,7 @@
+"# -Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alexifmg/-Explorando-os-Recursos-de-IA-Generativa-com-Copilot-e-OpenAI.git
+git push -u origin main
