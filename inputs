@@ -1,1 +1,83 @@
-import file
+# Prompt pronto (copiar e colar) — App iOS de Projetos e Atividades
+
+Atue como **Arquiteto iOS Sênior + Product Manager + UX Designer + Especialista em Métricas**.
+
+Quero sua ajuda para **definir e planejar um app iOS** de gerenciamento de projetos e tarefas para uso profissional, com foco em:
+1) organização do meu trabalho diário,
+2) visibilidade para meu chefe,
+3) métricas claras de produtividade.
+
+## Contexto
+- Eu cadastro projetos e, dentro deles, cadastro atividades.
+- Preciso acompanhar andamento e priorização.
+- Meu chefe precisa visualizar progresso e histórico do que já foi entregue.
+
+## Requisitos funcionais obrigatórios
+1. **Projetos e tarefas**
+   - Criar, editar e arquivar projetos.
+   - Criar, editar, priorizar e concluir tarefas dentro de cada projeto.
+2. **Status obrigatórios das tarefas (4 colunas)**
+   - **Aberta**
+   - **Em andamento**
+   - **Atenção**
+   - **Concluída**
+3. **Cor por status (acessível)**
+   - Defina uma paleta com contraste bom e consistente para cada status.
+   - Sugira também versão para modo escuro.
+4. **Acesso do chefe**
+   - Eu sou o responsável de edição.
+   - Meu chefe tem perfil de **visualização** (somente leitura).
+   - Mostrar trilha de atividade (quem alterou, o quê, quando).
+5. **Métricas e quantificação**
+   - Volume em aberto x concluído.
+   - Taxa de conclusão por semana/mês.
+   - Tarefas em atraso.
+   - Tempo médio de resolução.
+   - Demandas resolvidas por período.
+
+## Requisitos técnicos desejados
+- iOS nativo com **SwiftUI**.
+- Autenticação de usuário.
+- Sincronização em nuvem.
+- Notificações para tarefas em **Atenção** e próximas do prazo.
+- Filtros por projeto, status, prioridade e período.
+- Busca por texto.
+- Histórico/auditoria de mudanças.
+
+## Entrega esperada (ordem obrigatória)
+1. **Resumo funcional do produto** (linguagem simples).
+2. **Arquitetura recomendada** (app iOS + backend + banco + auth + push).
+3. **Comparativo de stack**: Firebase vs Supabase vs backend próprio (prós, contras e recomendação final).
+4. **Modelo de dados inicial** (entidades, campos, relacionamentos, índices).
+5. **Regras de negócio** (transição de status, permissões, auditoria, atrasos).
+6. **Fluxo de telas** (login, projetos, board, detalhe da tarefa, dashboard, perfil).
+7. **Métricas com fórmula** (definição exata de cálculo).
+8. **Plano MVP em 3 fases** (escopo de cada fase + critérios de pronto).
+9. **Backlog inicial com user stories + critérios Given/When/Then**.
+10. **Roadmap de 90 dias** (semanal, com marcos).
+11. **Checklist de publicação/TestFlight**.
+
+## Formato da sua resposta
+- Responda em **português**.
+- Use seções e tabelas objetivas.
+- Inclua exemplos concretos de:
+  - campos de formulário,
+  - card de tarefa,
+  - componentes SwiftUI por tela.
+- Traga decisões com justificativa curta e prática.
+
+## Restrições
+- Comece com MVP simples, mas arquitetura escalável.
+- Evite respostas genéricas.
+- Quando houver suposição, sinalize explicitamente como “Assunção”.
+
+## Perguntas finais obrigatórias
+Se faltar contexto, termine com **até 10 perguntas objetivas**, priorizadas por impacto (alta, média, baixa), para fechar requisitos.
+
+## Dados do meu cenário (preencha antes de usar)
+- Tipo de equipe: [ex.: individual, pequeno time, multi-times]
+- Nº de usuários estimado: [ ]
+- Prazo desejado para MVP: [ ]
+- Necessidade de uso offline: [sim/não]
+- Integrações desejadas: [ex.: Slack, e-mail, calendário]
+- Política de segurança/compliance: [ ]
